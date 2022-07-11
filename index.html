@@ -1,11 +1,47 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Page 1</title>
 </head>
 <body>
-    
+    <h1>Типы селекторов и их примеры</h1>
+        <ul>
+            <li>* - универсальный селектор, который выбирает все элементы</li>
+            <li>Селектор по типу элемента - p, span, li и т.д. - выбирает тип элемента</li>
+            <li>class - выбирает элементы на основе значения их атрибута Class</li>
+            <li>id - селектор по идентификатору, который выбирает элементы на основе значения их id атрибута</li>
+            <li>[attr/attr=value и т.д.] - cелекторы по атрибуту предназначены для выбора элементов по имени атрибута и (или) его значению.</li>
+        <ul>
+        <h3>Псевдоклассы</h3>
+        <ul>
+            <li>Псевдокласс :link предназначен для выбора не посещённых ссылок.</li>
+            <li>Псевдокласс :visited предназначен для выбора посещённых ссылок.</li>
+            <li>Псевдокласс :active предназначен для выбора элементов в момент когда они активируются пользователем.</li>
+            <li>Псевдокласс :hover предназначен для выбора элементов при поднесении к ним курсора </li>
+        </ul>
+        <h3>По располажению среди соседей</h3>
+        <p>При выборе элементов можно дополнительно с помощью псевдоклассов задать условие (фильтр) по их расположению (порядковому номеру) в родителе.</p>
+        <ul>
+            <li>:first-child - применяется для выбора элементов, которые являются первыми дочерними элементами своего родителя.</li>
+            <li>:last-child - применяется для выбора элементов, которые являются последними дочерними элементами своего родителя.</li>
+            <li>:only-child - используется для выбора элементов, если они являются единственными дочерними элементами внутри родительского контейнера.</li>
+            <li>:only-of-type - применяется для выбора элементов, если каждый из них являются единственным дочерним элементом данного типа внутри своего родителя</li>
+            <li>:enabled - предназначен для выбора включенных элементов формы, с которыми пользователь может взаимодействовать, например, нажать на него или внести текст.</li>
+            <li>:disabled - предназначен для выбора отключенных элементов формы, т.е. элементов с которыми пользователь в данный момент не может взаимодействовать.</li>
+        </ul>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</h6>
+        <p id="Lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</p>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</p>
+        <p class="lorem-first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</p>
+        <p class="lorem-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</p>
+        <p class="lorem-third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</p>
+        <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</b></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta, quia ipsa a facilis mollitia sequi?</p>
 </body>
 </html>
