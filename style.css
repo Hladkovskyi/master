@@ -1,0 +1,15 @@
+h6{
+    color: green;
+}
+#Lorem{
+    color: blueviolet;
+}
+.lorem{
+    color: aqua;
+}
+.lorem-first, .lorem-second, .lorem-third{
+    color: yellow;
+}
+p b{
+    color: brown;
+}
