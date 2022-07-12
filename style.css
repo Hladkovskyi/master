@@ -1,0 +1,330 @@
+*, body, html{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: #E5E5E5;
+}
+.purple{
+    background: #F13C6E;
+}
+.white{
+    background: #FFFFFF;
+}
+.menu-1{
+    width: 1920px;
+    height: 50px;
+    margin: 0 auto;
+}
+.menu-item{
+    float: left;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+.item-1{
+    margin-left: 736px;
+}
+.header{
+    width: 1920px;
+    height: 120px;
+    margin: 0 auto;
+    border-bottom: 1px solid #EFEFEF;
+}
+.logo{
+    margin-left: 405px;
+    margin-top: 20px;
+    float: left;
+}
+.tel{
+    margin-top: 50px;
+    float: left;
+    margin-left: 515px;
+}
+.call{
+    margin-top: 40px;
+    float: left;
+    margin-left: 40px;
+}
+.border{
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid #F13C6E;
+    padding-top: 9px; 
+    text-align: center;
+    box-sizing: border-box;
+}
+.head-2{
+    width: 1920px;
+    height: 79px;
+    margin: 0 auto;
+}
+.menu-item-2{
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.main-item{
+    margin-left: 622px;
+}
+.main-picture{
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+p b{
+    font-size: 48px;
+    font-weight: 700;
+}
+.text-pic{
+    width: 308px;
+    height: 219px;
+    position: absolute;
+    left: 405px;
+    top: 192px;
+    color: white;
+}
+.default-text{
+    position: absolute;
+    top: 94px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.press{
+    position: absolute;
+    top: 191px;
+    border: 2px solid #FFFFFF;
+}
+.press a{
+    color: #FFFFFF;
+}
+.chair-block{
+    width: 1110px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.second{ 
+    font-size: 24px;
+    font-weight: 700;
+}
+.card{
+    width: 255px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 38px;
+}
+.first-card{
+    margin-left: 0;
+}
+.chair{
+    width: 125px;
+    height: 166px;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+.chair-text{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.price{
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.buy{
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 9px 40px 9px 39px;
+    box-sizing: border-box;
+    margin-left: 62px;
+    margin-bottom: 25px;
+    color: white;
+}
+.ivents{
+    width: 1110px;
+    height: 212px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.box{
+    width: 540px;
+    height: 212px;
+    float: left;
+    padding: 35px 45px 35px 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+.truck-box{
+    margin-left: 30px;
+}
+input{
+    width: 225px;
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 25px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.letter{
+    position: absolute;
+    right: 45px;
+    top: 35px;
+}
+.letter-title{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.letter-text{
+    max-width: 231px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.map{
+   color: #FFFFFF; 
+   border: 2px solid #FFFFFF;
+   margin-top: 25px;
+}
+.truck{
+    position: absolute;
+    top: 50px;
+}
+.truck-text{
+    max-width: 141px;
+}
+.impuls-main{
+    width: 1108px;
+    height: 357px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.impuls{
+    width: 277px;
+    height: 120px;
+    border: 1px solid #EFEFEF;
+    float: left;
+    padding: 35px 60px;
+    box-sizing: border-box;
+}
+.recently-viewied{
+    width: 1110px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.categories{
+    width: 1110px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.popular{
+    width: 255px;
+    height: 70px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+    border-bottom: 1px solid #EFEFEF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.popular-first{
+    margin-left: 0;
+}
+.popular-text{
+    max-width: 99px;
+}
+.links{
+    width: 1110px;
+    height: 243px;
+    margin: 0 auto;
+    border-bottom: 2px solid #EFEFEF;
+}
+.column{
+    width: 255px;
+    height: 243px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+    line-height: 28px;
+    font-size: 12px;
+}
+.first-column{
+    margin-left: 0;
+}
+.social-media{
+    width: 1110px;
+    height: 120px;
+    margin: 0 auto;
+}
+.youtube{
+    padding-top: 13px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.vk{
+    margin-left: 20px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.facebook{
+    margin-left: 20px;
+    padding-top: 11px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.inst{
+    margin-left: 20px;
+    padding-top: 11px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.number{
+    width: 131px;
+    height: 17px;
+    margin-left: 525px;
+    margin-top: 25px;
+    float: left;
+}
+.rnd{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #F13C6E;
+    border-radius: 100%;
+    text-align: center;
+    float: left;
+}
+.back{
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.last{
+    width: 1920px;
+    height: 64px;
+    margin: 0 auto;
+}
+.copy{
+    width: 584px;
+    height: 14px;
+    float: left;
+    margin-left: 405px;
+    margin-top: 25px;
+    font-size: 12px;
+}
+.polit{
+    width: 181px;
+    height: 14px;
+    float: right;
+    margin-right: 405px;
+    margin-top: 25px;
+    font-size: 12px;
+}
